@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <center>
+            <legend><h1>Product Management</h1></legend>
+
+            <table>
+                <tr>
+                    <td><input type="text" id="input" placeholder="Add Product"></td>
+                    <td id="display"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" onclick="addProduct()">Add</button>
+                        <button type="button" onclick="displayProduct()">Display</button>
+                    </td>
+
+                    <!--<input type="hidden" onclick="updateProduct()" value="Edit">-->
+                </tr>
+                <br><br>
+                <!--<tr>
+                    <button type="button" onclick="editProduct()">Edit</button>
+                    <button type="button" onclick="deleteProduct()">Delete</button>
+                </tr>-->
+            </table>
+            <table id="showProduct">
+                <tr><h2>Show Product:</h2></tr>
+            </table>
+        </center>
+    </fieldset>
+    <script src="script.js"></script>
+</form>
+</body>
+</html>
